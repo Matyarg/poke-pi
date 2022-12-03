@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+.allPokes{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 75vw;
+}
+
+.pokedex {
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.pokedexContainer {
+    display: flex;
+    align-items: center;
+    color: rgba(255,61,0,255);
+    background-color: rgba(38,50,56,255);
+}
+
+.homeContainer {
+    height: 100%;
+
+}
+
+.pokeContainer {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.pokeBotton {
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.filters{
+    position:relative;
+    display:block;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.filters select {
+    background-color: rgba(38,50,56,255);
+    color: rgba(174,234,0,255);
+    border-radius: 50px;
+    width: 180px;
+    text-align: center;
+    height: 35px;
+}
+
+.lime{
+    color: rgba(174,234,0,255);
+    
+}
+
+
+
+

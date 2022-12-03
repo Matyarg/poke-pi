@@ -1,0 +1,42 @@
+.image {
+    display: flex;
+
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    border: 2px solid;
+    border-color: black;
+}
+.container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction:column ;
+    justify-content: space-around;
+
+    align-items: center;
+}
+
+
+.detailedPoke{
+    display: flex;
+    border: 2px solid;
+    border-color: black;
+    align-items: center;
+}
+
+.stats {
+    display: flex;
+    list-style: none;
+    align-content: center; 
+    text-align:center;
+    border: 2px solid;
+    border-color: black;
+}
+
+.statsTitle {
+    margin: 6px;
+    text-align:center;
+    border: 2px solid;
+    border-color: black;
+}

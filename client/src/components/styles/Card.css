@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+  }
+
+.card{
+    display: inline-block;
+    width: 190px;
+    color: rgba(236,239,241,255);
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    background-color: none;
+    transition: background-color 0.3s;
+    border-radius: 30px;
+}
+
+.card:hover{
+    background-color: #eb554d83;
+    transition:  background-color 0.3s;
+}
+
+.imagePoke{
+    width: 8vw;
+}
+
+
